@@ -1,4 +1,4 @@
-<h3>:readMe</h3>
+<h3>:star: Inspirations</h3>
 
 <a href="https://github.com/stephane-monnot/react-vertical-timeline">React Vertical Timeline</a> <br/>
 <a href="https://github.com/rcaferati/react-awesome-slider">React Awesome Slider</a> <br/>
