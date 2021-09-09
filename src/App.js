@@ -44,7 +44,6 @@ class App extends Component {
       dataType: 'json',
       cache: false,
       success: function (data) {
-        console.log(data);
         this.setState({ sharedData: data });
         document.title = `${this.state.sharedData.basic_info.name}`;
       }.bind(this),
@@ -59,8 +58,6 @@ class App extends Component {
       <div>
         {/* react swith */}
         <Header sharedData={this.state.sharedData.basic_info} />
-        {/* --------------- */}
-        {/* --------------- */}
 
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
