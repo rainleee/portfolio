@@ -81,28 +81,40 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
+      "company": "WIGO",
       "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "years": "2020.06 ~ 2021.04",
+      "mainTech": ["Java 1.8 & Spring 4.3 / JavaScript"],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "Java",
+        "Spring",
+        "Jsp",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Ajax",
+        "MVC pattern",
+        "Apache Tomcat",
+        "REST API",
+        "MySql",
+        "MariaDB"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "비트캠프 강남점",
+      "title": "교육과정 수료",
+      "years": "2019.09 - 2020.03",
+      "mainTech": ["Java 1.8 & Spring 4.3 / JavaScript"],
+      "technologies": [
+        "Java",
+        "Spring",
+        "Jsp",
+        "JavaScript",
+        "Ajax",
+        "MVC pattern",
+        "Apache Tomcat",
+        "REST API",
+        "MySql",
+        "Oracle"
+      ]
     }
   ]
 }
