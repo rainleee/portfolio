@@ -8,11 +8,13 @@ import Badge from 'react-bootstrap/Badge';
 
 class Experience extends Component {
   render() {
+    // console.log(this.props);
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
+        const mainLanguage = work.mainLanguage;
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -37,7 +39,7 @@ class Experience extends Component {
               color: '#fff',
               textAlign: 'center',
             }}
-            icon={<i className="fab fa-js experience-icon"></i>}
+            icon={<i className={`${mainLanguage} fab experience-icon`}></i>}
             key={i}
           >
             <div style={{ textAlign: 'left', marginBottom: '4px' }}>

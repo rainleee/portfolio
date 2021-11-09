@@ -81,6 +81,24 @@
   ],
   "experience": [
     {
+      "company": "개인 프로젝트",
+      "title": "비즈니스 명함만들기",
+      "years": "2021.08 ~ 2021.11",
+      "mainTech": ["TypeScript v4.4 & React v17 / Redux-Toolkit v1.6"],
+      "technologies": [
+        "TypeSciprt",
+        "JavaScript",
+        "React",
+        "Axios",
+        "REST API",
+        "Redux-Toolkit",
+        "cloudinary",
+        "Firebase Authentication",
+        "Firebase Realtime Database"
+      ],
+      "mainLanguage": "devicon-typescript-plain"
+    },
+    {
       "company": "WIGO",
       "title": "Front-End Developer",
       "years": "2020.06 ~ 2021.04",
@@ -96,7 +114,8 @@
         "REST API",
         "MySql",
         "MariaDB"
-      ]
+      ],
+      "mainLanguage": "fa-js"
     },
     {
       "company": "비트캠프 강남점",
@@ -114,7 +133,8 @@
         "REST API",
         "MySql",
         "Oracle"
-      ]
+      ],
+      "mainLanguage": "devicon-java-plain"
     }
   ]
 }
