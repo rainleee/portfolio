@@ -12,7 +12,7 @@
   "projects": [
     {
       "title": "Animal Shelter",
-      "startDate": "2020",
+      "startDate": "2021",
       "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
@@ -35,46 +35,76 @@
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "title": "롯데호텔 로컬멤버십",
+      "startDate": "2020",
+      "description": "전국 롯데호텔 사내용, 고객용 총 두 가지의 홈페이지 구축하였다. <br>첫 번째는 사내용 데이터베이스 통합작업 및 개선 홈페이지이다. 기존에 연동할 수 없는 호텔별 데이터를 모아 조회가 가능하게 구성하였으며, 주요기능은 기존 아이디 연동을 통한 호텔별, 직급별 정보열람 제한설정과 회원목록 조회 및 회원정보 추가 및 수정, 멤버십별 목록, 정책관리 등의 정보를 열람 및 사용이 가능.<br>두 번째는 고객용으로 로컬멤버십의 종류안내, 가입 및 쿠폰 사용이 가능한 홈페이지를 구축했으며, 위 사진은 그 중 고객이 멤버십 가입 및 이용을 위한 홈페이지이다.",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/photography/main.png",
+        "images/portfolio/photography/login.png",
+        "images/portfolio/photography/trevi.png"
       ],
-      "url": "https://github.com",
+      "url": "https://lottehotelmembership.lottehotel.com/screen/FRT0001.ub",
       "technologies": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-java-plain",
+          "name": "Java 1.8"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring 4.0"
         },
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "Jquery"
+        },
+        {
+          "class": "devicon-tomcat-line",
+          "name": "Apache-Tomcat 9.0"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MariaDB 10.0"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "title": "SNS 및 매칭 서비스 어울림(UWL)",
+      "startDate": "2019",
+      "description": "소셜데이팅 서비스 ‘떨림에서 울림으로, 울림에서 어울림으로’ (이하 어울림)’은 오프라인의 인맥을 기반으로 연애에 관심 있는 학생들을 대상으로 하며, 서로 꽃을 보냄으로 호감을 표시했다면 알람이 울리는 기능을 주기능으로 가진다. <br>모든 이용자에게는 ‘도전과제’, ‘익명 게시판’ 등을 제공하고, 매칭이 성공할 시에 ‘커플 전용 공간’ 등 특화된 서비스를 제공한다. 매칭 후 홈페이지를 이용하지 않는 기존 소셜데이팅 서비스의 단점을 보완하기 위해 등록된 친구들과의 1:1 채팅, 이미지 및 동영상 주고받기, 공유 등 SNS 기능을 제공한다. 또한, 다양한 카테고리로 분류된 익명게시판을 통해 커뮤니티를 형성하게 하여 지속적인 접속 빈도수를 높인다.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/adventure/listChallenge.jpg",
+        "images/portfolio/adventure/addChallenge.jpg",
+        "images/portfolio/adventure/listSchoolRanking.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/rainleee/UWL",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-java-plain",
+          "name": "Java 1.8"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-spring-plain",
+          "name": "Spring 4.3"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "Jquery"
+        },
+        {
+          "class": "devicon-tomcat-line",
+          "name": "Apache-Tomcat 7.0"
+        },
+        {
+          "class": "devicon-oracle-plain",
+          "name": "OracleDB 10g"
         }
       ]
     }
