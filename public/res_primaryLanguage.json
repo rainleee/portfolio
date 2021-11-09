@@ -11,26 +11,34 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
+      "title": "Business Card Project",
       "startDate": "2021",
       "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
         "images/portfolio/animal-shelter/p2.jpg"
       ],
-      "url": "",
+      "url": "https://github.com/rainleee/ts-react-card-maker",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
           "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "name": "TypeScript 4.4"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React 17.0"
+        },
+        {
+          "class": "devicon-redux-original",
+          "name": "Redux-toolkit 1.6"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
         }
       ]
     },
@@ -114,15 +122,16 @@
       "company": "개인 프로젝트",
       "title": "비즈니스 명함만들기",
       "years": "2021.08 ~ 2021.11",
-      "mainTech": ["TypeScript v4.4 & React v17 / Redux-Toolkit v1.6"],
+      "mainTech": ["TypeScript & React / Redux-Toolkit"],
       "technologies": [
-        "TypeSciprt",
-        "JavaScript",
-        "React",
-        "Axios",
+        "TypeSciprt v4.4",
+        "JavaScript ES6",
+        "React v17.0",
+        "Redux-Toolkit v1.6",
+        "Axios v0.23",
+        "cloudinary 1.26",
+        "Firebase SDK v8.9",
         "REST API",
-        "Redux-Toolkit",
-        "cloudinary",
         "Firebase Authentication",
         "Firebase Realtime Database"
       ],
@@ -132,18 +141,18 @@
       "company": "WIGO",
       "title": "Front-End Developer",
       "years": "2020.06 ~ 2021.04",
-      "mainTech": ["Java 1.8 & Spring 4.3 / JavaScript"],
+      "mainTech": ["Java & Spring / JavaScript"],
       "technologies": [
-        "Java",
-        "Spring",
-        "Jsp",
-        "JavaScript",
+        "Java v1.8",
+        "Spring v4.0",
+        "Jsp v2.3",
+        "JavaScript ES5",
+        "Jquery 3.1",
         "Ajax",
         "MVC pattern",
-        "Apache Tomcat",
+        "Apache Tomcat v9.0",
         "REST API",
-        "MySql",
-        "MariaDB"
+        "MariaDB v10"
       ],
       "mainLanguage": "fa-js"
     },
@@ -151,18 +160,18 @@
       "company": "비트캠프 강남점",
       "title": "교육과정 수료",
       "years": "2019.09 - 2020.03",
-      "mainTech": ["Java 1.8 & Spring 4.3 / JavaScript"],
+      "mainTech": ["Java & Spring / JavaScript"],
       "technologies": [
-        "Java",
-        "Spring",
-        "Jsp",
-        "JavaScript",
+        "Java v1.8",
+        "Spring v4.3",
+        "Jsp v2.3",
+        "JavaScript ES5",
+        "Jquery 3.1",
         "Ajax",
         "MVC pattern",
-        "Apache Tomcat",
+        "Apache Tomcat v7.0",
         "REST API",
-        "MySql",
-        "Oracle"
+        "Oracle 10g"
       ],
       "mainLanguage": "devicon-java-plain"
     }
