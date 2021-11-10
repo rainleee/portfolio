@@ -11,7 +11,7 @@
   },
   "projects": [
     {
-      "title": "Business Card Project",
+      "title": "Business Card",
       "startDate": "2021",
       "description": "작성한 내용을 토대로 명함을 만들어주는 웹 프로젝트이다. 로그인 후 사용자의 연동된 정보를 통해 계정마다 저장된 명함을 볼 수 있다. Maker section을 통해 명함의 정보를 추가하거나 수정할 수 있으며, 이미지 등록이 가능하다. 또한, Preview section을 통해 완성된 명함을 볼 수 있다.",
       "images": [
@@ -41,6 +41,35 @@
         {
           "class": "devicon-firebase-plain",
           "name": "Firebase"
+        }
+      ]
+    },
+    {
+      "title": "Youtube clone",
+      "startDate": "2021",
+      "description": "Youtube API를 활용한 유튜브 클론코딩 웹 프로젝트이다. 메인화면에는 '인기 급상승 동영상'이 표시되게 하였다. 동영상 상세화면에서 채널명, 구독자, 상세설명, 게시일 등을 표시하였으며, 우측에는 기존 '인기 급상승 동영상'을 표시해 다른 동영상으로 쉽게 넘어갈 수 있게 구성하였다. 또한, 상단 가운데 '검색'박스를 통해 원하는 키워드의 영상을 검색할 수 있다.",
+      "images": [
+        "images/portfolio/youtube/main.png",
+        "images/portfolio/youtube/detail.png",
+        "images/portfolio/youtube/search.png"
+      ],
+      "url": "https://github.com/rainleee/youtube",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React 17.0"
         }
       ]
     },
@@ -138,6 +167,20 @@
         "Firebase Realtime Database"
       ],
       "mainLanguage": "devicon-typescript-plain"
+    },
+    {
+      "company": "개인 프로젝트",
+      "title": "Youtube Clone Coding",
+      "years": "2021.07 ~ 2021.8",
+      "mainTech": ["JavaScript & React"],
+      "technologies": [
+        "JavaScript ES6",
+        "HTML 5",
+        "CSS 3",
+        "React v17.0",
+        "Axios v0.23"
+      ],
+      "mainLanguage": "fa-js"
     },
     {
       "company": "WIGO",
