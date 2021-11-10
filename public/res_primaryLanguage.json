@@ -13,10 +13,12 @@
     {
       "title": "Business Card Project",
       "startDate": "2021",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "description": "작성한 내용을 토대로 명함을 만들어주는 웹 프로젝트이다. 로그인 후 사용자의 연동된 정보를 통해 계정마다 저장된 명함을 볼 수 있다. Maker section을 통해 명함의 정보를 추가하거나 수정할 수 있으며, 이미지 등록이 가능하다. 또한, Preview section을 통해 완성된 명함을 볼 수 있다.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/animal-shelter/main.png",
+        "images/portfolio/animal-shelter/login.png",
+        "images/portfolio/animal-shelter/maker.png",
+        "images/portfolio/animal-shelter/preview.png"
       ],
       "url": "https://github.com/rainleee/ts-react-card-maker",
       "technologies": [
