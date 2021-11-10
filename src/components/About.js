@@ -31,15 +31,15 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
+                    icon={typescriptIcon}
+                    style={{ fontSize: '400%', margin: '9% 5% 0 5%' }}
+                  />
+                  <Icon
                     icon={javascriptIcon}
                     style={{ fontSize: '390%', margin: '9% 5% 0 5%' }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: '400%', margin: '9% 5% 0 5%' }}
-                  />
-                  <Icon
-                    icon={typescriptIcon}
                     style={{ fontSize: '400%', margin: '9% 5% 0 5%' }}
                   />
                 </span>
@@ -78,9 +78,6 @@ class About extends Component {
                   >
                     <br />
                     <span className="wave">
-                      이부분 좀 더 수정
-                      <br />
-                      <br />
                       <i className="fas fa-quote-left quote"></i>
                       {hello}
                       <i className="fas fa-quote-right quote"></i>
