@@ -107,12 +107,18 @@ header h1 {
   display: none;
 }
 
-#about {
+#about,
+#intro {
   background: #fff;
   overflow: hidden;
 }
 
-#about h1 {
+.col-md-12 > h1 {
+  margin-bottom: 2.1rem;
+}
+
+#about h1,
+#intro h1 {
   padding-top: 5%;
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
