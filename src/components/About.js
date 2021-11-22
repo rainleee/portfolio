@@ -114,7 +114,9 @@ class About extends Component {
                         </ul>
                       </div>
                     </span>
-                    {about}
+                    <i className="fas fa-quote-left quote"></i>
+                    {` ${about} `}
+                    <i className="fas fa-quote-right quote"></i>
                   </div>
                 </div>
               </div>

@@ -46,20 +46,9 @@ class Introduce extends Component {
                   }}
                 >
                   <br />
-
-                  <div className="1">
-                    <span className="wave">1.개발자로 시작한 계기</span>
-                    <p>{start}</p>
-                  </div>
-                  <div className="2">
-                    <span className="wave">2.취업 후 주요 일</span>
-                    <p>{mainTasks}</p>
-                  </div>
-                  <div className="3">
-                    <span className="wave">3.자바스크립트를 선택한 이유</span>
-                    <p>{progress}</p>
-                  </div>
-                  {/* {introduce} */}
+                  <p>{start}</p>
+                  <p>{mainTasks}</p>
+                  <p>{progress}</p>
                 </div>
               </div>
             </div>

@@ -65,6 +65,11 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
 
+        <Introduce
+          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}
+        />
+
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
@@ -77,10 +82,6 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        {/* <Introduce
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        /> */}
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
