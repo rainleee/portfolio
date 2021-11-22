@@ -1,0 +1,236 @@
+{
+  "basic_info": {
+    "description_header": "JavaScript로 Fullstack을 이루고 싶은 개발자",
+    "description_my_info": "JavaScript를 좋아하는 개발자 이민우입니다.",
+    "description_heade": "누구나 실수는 한다. 실수를 통해서 배우고 학습하여 똑같은 실수를 되풀이하지 말자.",
+    "contact_phone": "010-7362-0602",
+    "contact_email": "rainlee4401@gmail.com",
+    "portfolio_github": "https://github.com/rainleee",
+    "portfolio_tistory": "https://rainlee-develop-well.tistory.com/",
+    "description": "JavaScript로 Fullstack 개발자가 목표인 주니어 개발자입니다. JavaScript를 바탕으로 Typescript, node.js를 활용한 개발을 하고 싶습니다. 현재에는 React 개발에 제일 관심이 많습니다. 개발하면서 사람은 기계가 아니어서 누구나 실수를 할 수 있다고 생각합니다. 하지만 실수에 대한 해결책이 단순히 누군가가 만들어놓은 해답이거나, 작성자가 이해하지 않고 붙여놓은 코드라면 결국에는 똑같은 실수가 반복된다고 생각합니다. 저의 잘못된 점을 통해 새로운 지식을 이해하고 쌓아 더 나은 개발자가 되기 위해 노력합니다. 그렇게 보완할 점을 되짚어보고 생각함으로써 계속해서 발전해 나가려 합니다.",
+    "section_name": {
+      "about": "About me",
+      "introduce": "Introduce",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    },
+    "introduce": {
+      "start": "개발직군에 지원하기 전 직장은 3년간 출판 제작자로서 근무했습니다. 출판제작자로서 인쇄소 및 협력업체를 방문하여 일정관리 및 도서 제작을 진행했습니다. 퇴직을 결심하게 된 계기는 처음엔 효율적으로 업무를 수행하고 싶어 찾아보다 프로그래머들은 온라인 협업 프로그램을 이용해 장소에 구애받지 않고 프로젝트를 진행하는 것을 알게 됐습니다. 그렇게 시작되어 내 생각과 아이디어로 구현되는 것을 보며 흥미를 느끼고 나아가 프로그래밍 공부를 시작했습니다. 전문가로서 프로그래머가 되고 싶어서 회사를 그만두고 6개월의 SW 엔지니어링 교육과정을 수료했습니다.",
+      "main_tasks": "Java와 Spring 프레임워크를 바탕으로 jsp개발을 하면서 DOM 조작을 위해 자바스크립트를 공부하게 되었습니다. 이에 따라 jquery, ajax와 같은 라이브러리를 공부하고 자바스크립트의 트랜드에 대해 공부하게 되었습니다. 그러다가 요즘 우리가 다양한 서비스에서 흔히 보는 SPA에 대해 알게 되었습니다. DB에서 데이터를 불러와 표현하는 MPA가 아니라 하나의 화면을 가지고 DOM 조작을 하는 SPA를 직접 개발하고 싶어 React에 대해 자연스레 알게 되고 또한 좀 더 견고한 코드를 짜기 위한 statically type 언어인 Typescript도 공부하게 되었습니다. 자바스크립트를 통해 개발에 대한 흥미와 재미를 느껴 프론트엔드 개발자로 지원하게 되었습니다. ",
+      "progress": "프론트엔드와 백엔드를 아우르는 풀스텍 개발자가 되고 싶습니다. 년간 계획을 세워 먼저 JavaScript,React,HTML,CSS, 웹 브라우저에 대한 지식을 더 견고하게 쌓고 그 후 node js를 통해 백엔드 개발을 통해 DB 제어 및 보안사항 공부를 통해 웹홈페이지 풀스텍 개발자가 되고 싶습니다. 또한, 기회가 된다면 리액트 네이티브를 이용한 하이브리드앱 개발도 하고 싶습니다."
+    }
+  },
+  "projects": [
+    {
+      "title": "Business Card",
+      "startDate": "2021",
+      "description": "작성한 내용을 토대로 명함을 만들어주는 웹 프로젝트이다. 로그인 후 사용자의 연동된 정보를 통해 계정마다 저장된 명함을 볼 수 있다. Maker section을 통해 명함의 정보를 추가하거나 수정할 수 있으며, 이미지 등록이 가능하다. 또한, Preview section을 통해 완성된 명함을 볼 수 있다.",
+      "images": [
+        "images/portfolio/animal-shelter/main.png",
+        "images/portfolio/animal-shelter/login.png",
+        "images/portfolio/animal-shelter/maker.png",
+        "images/portfolio/animal-shelter/preview.png"
+      ],
+      "url": "https://github.com/rainleee/ts-react-card-maker",
+      "technologies": [
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript 4.4"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React 17.0"
+        },
+        {
+          "class": "devicon-redux-original",
+          "name": "Redux-toolkit 1.6"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        }
+      ]
+    },
+    {
+      "title": "Youtube clone",
+      "startDate": "2021",
+      "description": "Youtube API를 활용한 유튜브 클론코딩 웹 프로젝트이다. 메인화면에는 '인기 급상승 동영상'이 표시되게 하였다. 동영상 상세화면에서 채널명, 구독자, 상세설명, 게시일 등을 표시하였으며, 우측에는 기존 '인기 급상승 동영상'을 표시해 다른 동영상으로 쉽게 넘어갈 수 있게 구성하였다. 또한, 상단 가운데 '검색'박스를 통해 원하는 키워드의 영상을 검색할 수 있다.",
+      "images": [
+        "images/portfolio/youtube/main.png",
+        "images/portfolio/youtube/detail.png",
+        "images/portfolio/youtube/search.png"
+      ],
+      "url": "https://github.com/rainleee/youtube",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React 17.0"
+        }
+      ]
+    },
+    {
+      "title": "롯데호텔 로컬멤버십",
+      "startDate": "2020",
+      "description": "전국 롯데호텔 사내용, 고객용 총 두 가지의 홈페이지 구축하였다. <br>첫 번째는 사내용 데이터베이스 통합작업 및 개선 홈페이지이다. 기존에 연동할 수 없는 호텔별 데이터를 모아 조회가 가능하게 구성하였으며, 주요기능은 기존 아이디 연동을 통한 호텔별, 직급별 정보열람 제한설정과 회원목록 조회 및 회원정보 추가 및 수정, 멤버십별 목록, 정책관리 등의 정보를 열람 및 사용이 가능.<br>두 번째는 고객용으로 로컬멤버십의 종류안내, 가입 및 쿠폰 사용이 가능한 홈페이지를 구축했으며, 위 사진은 그 중 고객이 멤버십 가입 및 이용을 위한 홈페이지이다.",
+      "images": [
+        "images/portfolio/photography/main.png",
+        "images/portfolio/photography/login.png",
+        "images/portfolio/photography/trevi.png"
+      ],
+      "url": "https://lottehotelmembership.lottehotel.com/screen/FRT0001.ub",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java 1.8"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring 4.0"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "Jquery"
+        },
+        {
+          "class": "devicon-tomcat-line",
+          "name": "Apache-Tomcat 9.0"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MariaDB 10.0"
+        }
+      ]
+    },
+    {
+      "title": "SNS 및 매칭 서비스 어울림(UWL)",
+      "startDate": "2019",
+      "description": "소셜데이팅 서비스 ‘떨림에서 울림으로, 울림에서 어울림으로’ (이하 어울림)’은 오프라인의 인맥을 기반으로 연애에 관심 있는 학생들을 대상으로 하며, 서로 꽃을 보냄으로 호감을 표시했다면 알람이 울리는 기능을 주기능으로 가진다. <br>모든 이용자에게는 ‘도전과제’, ‘익명 게시판’ 등을 제공하고, 매칭이 성공할 시에 ‘커플 전용 공간’ 등 특화된 서비스를 제공한다. 매칭 후 홈페이지를 이용하지 않는 기존 소셜데이팅 서비스의 단점을 보완하기 위해 등록된 친구들과의 1:1 채팅, 이미지 및 동영상 주고받기, 공유 등 SNS 기능을 제공한다. 또한, 다양한 카테고리로 분류된 익명게시판을 통해 커뮤니티를 형성하게 하여 지속적인 접속 빈도수를 높인다.",
+      "images": [
+        "images/portfolio/adventure/listChallenge.jpg",
+        "images/portfolio/adventure/addChallenge.jpg",
+        "images/portfolio/adventure/listSchoolRanking.jpg"
+      ],
+      "url": "https://github.com/rainleee/UWL",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java 1.8"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring 4.3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "Jquery"
+        },
+        {
+          "class": "devicon-tomcat-line",
+          "name": "Apache-Tomcat 7.0"
+        },
+        {
+          "class": "devicon-oracle-plain",
+          "name": "OracleDB 10g"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "개인 프로젝트",
+      "title": "비즈니스 명함만들기",
+      "years": "2021.08 ~ 2021.11",
+      "mainTech": ["TypeScript & React / Redux-Toolkit"],
+      "technologies": [
+        "TypeSciprt v4.4",
+        "JavaScript ES6",
+        "React v17.0",
+        "Redux-Toolkit v1.6",
+        "Axios v0.23",
+        "cloudinary 1.26",
+        "Firebase SDK v8.9",
+        "REST API",
+        "Firebase Authentication",
+        "Firebase Realtime Database"
+      ],
+      "mainLanguage": "devicon-typescript-plain"
+    },
+    {
+      "company": "개인 프로젝트",
+      "title": "Youtube Clone Coding",
+      "years": "2021.07 ~ 2021.8",
+      "mainTech": ["JavaScript & React"],
+      "technologies": [
+        "JavaScript ES6",
+        "HTML 5",
+        "CSS 3",
+        "React v17.0",
+        "Axios v0.23"
+      ],
+      "mainLanguage": "fa-js"
+    },
+    {
+      "company": "WIGO",
+      "title": "Front-End Developer",
+      "years": "2020.06 ~ 2021.04",
+      "mainTech": ["Java & Spring / JavaScript"],
+      "technologies": [
+        "Java v1.8",
+        "Spring v4.0",
+        "Jsp v2.3",
+        "JavaScript ES5",
+        "Jquery 3.1",
+        "Ajax",
+        "MVC pattern",
+        "Apache Tomcat v9.0",
+        "REST API",
+        "MariaDB v10"
+      ],
+      "mainLanguage": "fa-js"
+    },
+    {
+      "company": "비트캠프 강남점",
+      "title": "교육과정 수료",
+      "years": "2019.09 - 2020.03",
+      "mainTech": ["Java & Spring / JavaScript"],
+      "technologies": [
+        "Java v1.8",
+        "Spring v4.3",
+        "Jsp v2.3",
+        "JavaScript ES5",
+        "Jquery 3.1",
+        "Ajax",
+        "MVC pattern",
+        "Apache Tomcat v7.0",
+        "REST API",
+        "Oracle 10g"
+      ],
+      "mainLanguage": "devicon-java-plain"
+    }
+  ]
+}

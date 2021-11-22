@@ -1,0 +1,88 @@
+{
+  "basic_info": {
+    "name": "LMW's Portfolio",
+    "titles": ["Front-end Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/rainleee",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "tistory",
+        "url": "https://rainlee-develop-well.tistory.com/",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "75"
+      },
+
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "75"
+      },
+
+      {
+        "name": "Redux",
+        "class": "devicon-redux-original",
+        "level": "75"
+      },
+
+      {
+        "name": "Jquery",
+        "class": "devicon-jquery-plain",
+        "level": "75"
+      },
+
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+
+      {
+        "name": "Oracle",
+        "class": "devicon-oracle-plain",
+        "level": "75"
+      },
+
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "60"
+      }
+    ]
+  }
+}
