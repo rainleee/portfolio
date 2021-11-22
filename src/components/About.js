@@ -97,13 +97,18 @@ class About extends Component {
                           Channel.
                           <li className="github">
                             Github.
-                            <a href={github} target="_blank">{` ${github}`}</a>
+                            <a
+                              href={github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >{` ${github}`}</a>
                           </li>
                           <li className="tistory">
                             Blog.
                             <a
                               href={tistory}
                               target="_blank"
+                              rel="noopener noreferrer"
                             >{` ${tistory}`}</a>
                           </li>
                         </ul>

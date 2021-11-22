@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import { Icon } from '@iconify/react';
-import reactIcon from '@iconify/icons-logos/react';
-import javascriptIcon from '@iconify/icons-logos/javascript';
-import typescriptIcon from '@iconify/icons-logos/typescript-icon';
 
 class Introduce extends Component {
   render() {
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.introduce;
-      var introduce = this.props.resumeBasicInfo.introduce;
+      var start = this.props.resumeBasicInfo.introduce.start;
+      var mainTasks = this.props.resumeBasicInfo.introduce.main_tasks;
+      var progress = this.props.resumeBasicInfo.introduce.progress;
     }
 
     return (
@@ -48,8 +46,20 @@ class Introduce extends Component {
                   }}
                 >
                   <br />
-                  <span className="wave"></span>
-                  {introduce}
+
+                  <div className="1">
+                    <span className="wave">1.개발자로 시작한 계기</span>
+                    <p>{start}</p>
+                  </div>
+                  <div className="2">
+                    <span className="wave">2.취업 후 주요 일</span>
+                    <p>{mainTasks}</p>
+                  </div>
+                  <div className="3">
+                    <span className="wave">3.자바스크립트를 선택한 이유</span>
+                    <p>{progress}</p>
+                  </div>
+                  {/* {introduce} */}
                 </div>
               </div>
             </div>

@@ -7,7 +7,7 @@
     "contact_email": "rainlee4401@gmail.com",
     "portfolio_github": "https://github.com/rainleee",
     "portfolio_tistory": "https://rainlee-develop-well.tistory.com/",
-    "description": "👋 Javascript로 Fullstack 개발자가 목표인 주니어 개발자입니다. Javascript를 바탕으로 Typescript, node.js를 활용한 개발을 하고 싶습니다. 현재에는 React 개발에 제일 관심이 많습니다. 개발하면서 사람은 기계가 아니어서 누구나 실수를 할 수 있다고 생각합니다. 하지만 실수에 대한 해결책이 단순히 누군가가 만들어놓은 해답이거나, 작성자가 이해하지 않고 붙여놓은 코드라면 결국에는 똑같은 실수가 반복된다고 생각합니다. 저의 잘못된 점을 통해 새로운 지식을 이해하고 쌓아 더 나은 개발자가 되기 위해 노력합니다. 그렇게 보완할 점을 되짚어보고 생각함으로써 계속해서 발전해 나가려 합니다.",
+    "description": "👋Javascript로 Fullstack 개발자가 목표인 주니어 개발자입니다. Javascript를 바탕으로 Typescript, node.js를 활용한 개발을 하고 싶습니다. 현재에는 React 개발에 제일 관심이 많습니다. 개발하면서 사람은 기계가 아니어서 누구나 실수를 할 수 있다고 생각합니다. 하지만 실수에 대한 해결책이 단순히 누군가가 만들어놓은 해답이거나, 작성자가 이해하지 않고 붙여놓은 코드라면 결국에는 똑같은 실수가 반복된다고 생각합니다. 저의 잘못된 점을 통해 새로운 지식을 이해하고 쌓아 더 나은 개발자가 되기 위해 노력합니다. 그렇게 보완할 점을 되짚어보고 생각함으로써 계속해서 발전해 나가려 합니다.",
     "section_name": {
       "about": "About me",
       "introduce": "Introduce",
@@ -15,7 +15,11 @@
       "skills": "Skills",
       "experience": "Experience"
     },
-    "introduce": "들어갈 내용: 1) 어떤 경력/경험을 가졌고 2) 관심사(일과 무관한 취미X, 일적인 관심사)가 무엇인지 위주의 짧은 글내가 어떤 개발자인지를 2-5줄로 요약하여 작성한다."
+    "introduce": {
+      "start": "내가 개발자로 시작한 이유2) 관심사(일과 무관한 취미X, 일적인 관심사)가 무엇인지 위주의 짧은 글내가 어떤 개발자인지를 2-5줄로 요약하여 작성한다.",
+      "main_tasks": "취업해서 한 일들",
+      "progress": "자바스크립트를 메인으로 전향한 이유, 앞으로 하고싶은 일들"
+    }
   },
   "projects": [
     {

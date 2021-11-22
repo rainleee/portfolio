@@ -78,22 +78,24 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: '5px 5px 0 5px' }}>
-              {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
+            {url ? (
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-href"
+              >
+                <h3 style={{ padding: '5px 5px 0 5px' }}>
+                  {title}
                   <i
                     className="fas fa-external-link-alt"
                     style={{ marginLeft: '10px' }}
                   ></i>
-                </a>
-              ) : null}
-            </h3>
+                </h3>
+              </a>
+            ) : (
+              <h3 style={{ padding: '5px 5px 0 5px' }}>{title}</h3>
+            )}
             <p
               className="modal-description"
               dangerouslySetInnerHTML={{ __html: description }}

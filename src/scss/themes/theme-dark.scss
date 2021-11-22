@@ -53,6 +53,28 @@ body[data-theme='dark'] {
     .quote {
       color: white;
     }
+
+    .contact,
+    .contact > li {
+      color: white;
+    }
+  }
+
+  #intro {
+    background-color: #7f7f7f;
+    h1 span {
+      color: white;
+    }
+    .polaroid span {
+      background: #6d6d6d;
+    }
+    .card {
+      background: #6d6d6d;
+      color: white;
+    }
+    .quote {
+      color: white;
+    }
   }
 
   #portfolio {
